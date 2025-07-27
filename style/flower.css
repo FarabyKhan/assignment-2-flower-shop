@@ -219,7 +219,7 @@ body{
         color:rgba(0, 0, 0, 0.5) ;
     }
 
-@media screen and (max-width:567px) {
+@media screen and ( max-width:567px) {
     .contents{
         padding: 0px;
        margin: 0px;
@@ -355,12 +355,10 @@ body{
     background-color: #2a7dca;
     }
 
+    
     /* Flower Section  */
      .flower-section {
-    max-width: 361px;
-    width: 100%;
-    margin:20px;
-    padding: 0;
+     margin:20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -370,10 +368,11 @@ body{
   }
     .flower-profile-pic {
      height: auto;
+     max-width: 358px;
     width: 100%;
   }
    .flower-text{
-        max-width: 361px;
+        max-width: 360px;
         padding:10px 0;
     }
   .section-title{
@@ -392,3 +391,5 @@ body{
         display: none;
     }
     }
+ 
+  
