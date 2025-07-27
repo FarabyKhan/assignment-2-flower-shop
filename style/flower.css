@@ -331,7 +331,104 @@ body{
         grid-column: 2/3;
         grid-row: 1/3;
     }
+    /* Email Section */
+       .email-section{
+        background-image: url('../assets/news-letter-bg.png');
+       background-size: cover;
+        background-position: center;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .invite-title{
+        font-size:3.125rem ;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 23px;
+    }
+    .email-form-container{
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .email-section input[type="email"] {
+  font-size: 1rem;
+  font-weight: 400;
+  height: auto;
+  width: 600px;
+  padding: 17px 25px;
+  border: none;
+    border: none;
+    outline: none;
+    }
+    .btn-sub{
+         font-size: 1rem;
+         font-weight: 600;
+         color: white;
+         background-color: #E95A08;
+         height: 52px;
+         width: 150px;
+         border: none;
+        
+    }
+    .btn-sub:hover {
+    background-color: #2a7dca;
+    }
+      /* footer section */
+    .footer{
+        padding: 20px 20px 50px;
+        width: 100%;
+    }
+    .footer-container{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .footer-brand img{
+        height: auto;
+        width: 150px;
+    }
+    .footer-brand p{
+        font-size: 1.375rem;
+        font-size: 400;
+        color: rgba(0, 0, 0, 0.5);
+        height: auto;
+        width: 359px;
+        margin-top: 16px;
+    }
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 26px 110px; 
+    }
+    .links-column  {
+  display: flex;
+  flex-direction: column;
+  gap: 26px ;
+}
+.footer-links a, .footer-socials a{
+     text-decoration: none;
+     color: #6B7280;
+     font-size: 1rem;
+     font-weight: 400;
+     
 
+}
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer-social img {
+    width:30px;
+}
 @media screen and ( max-width:567px) {
     .contents{
         padding: 0px;
@@ -612,6 +709,93 @@ body{
         grid-column: auto;
         grid-row: auto;
     }
+    /* Join-section */
+     .email-section{
+        background-image: url('../assets/news-letter-bg.png');
+       background-size: cover;
+        background-position: center;
+        height: 276px;
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
     }
+     .invite-title{
+        font-size:1.25rem ;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 23px;
+    }
+    .email-form-container{
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .email-section input[type="email"] {
+  font-size: 0.875rem;
+  font-weight: 400;
+  height: auto;
+  width: 170px;
+  padding: 15px 20px;
+  border: none;
+    border: none;
+    outline: none;
+    }
+    .btn-sub{
+         font-size: 0.875rem;
+         font-weight: 600;
+         color: white;
+         background-color: #E95A08;
+         height: 45px;
+         width: 90px;
+         border: none;
+        
+    }
+    .btn-sub:hover {
+    background-color: #2a7dca;
+    }
+     /* Footer section */
+  .footer-container {
+    max-width: 361px;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+  .footer-brand img{
+    width: 180px;
+  }
+
+  .footer-brand p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .links-column{
+    gap: 32px;
+  }
+  .footer-social {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-social img {
+    width: 30px;
+  }
+}
+    
  
   
