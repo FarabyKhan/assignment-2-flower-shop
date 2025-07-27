@@ -7,6 +7,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 body{
     margin:0px;
      background-color: #F5F8FF;
@@ -764,7 +765,7 @@ body{
     }
      /* Footer section */
   .footer-container {
-    max-width: 361px;
+    max-width: 320px;
     width: 100%;
     padding: 20px;
     flex-direction: column;
