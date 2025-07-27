@@ -94,10 +94,92 @@ body{
     height:355px;
     width:570px;
 }
+/* Card Section */
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        margin: 120px 0 210px;
+
+    }
+    .card-section-title{
+        font-size: 3.125rem;
+        font-weight: bold;
+        color: #E95A08;
+        margin-bottom: 0px;
+    }
+    .ct{
+       font-size: 3.125rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .card-description{
+        font-size: 1.375rem;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 16px 0 49px;
+        max-width: 888px;
+
+    }
+    .centered-line{
+        display: block;
+        text-align: center;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap:30px 20px;
+    }
+    .card-container{
+        border: 1px solid pink;
+        max-width: 270px;
+        height: auto;
+        box-shadow: 10px 10px 10px rgba(199, 165, 165, 0.877);
+
+    }
+    .card-container img{
+        margin-bottom: 20px;
+    }
+
+    .card-items h3{
+        font-size: 1.375rem ;
+        font-weight: 400;
+        color: #111111; 
+        margin: 5px;
+        margin: 20px 60px 0px ;
+    }
+    .card-items p{
+      font-size: 1.375rem ;
+        font-weight: bold;
+        color: #111111; 
+        margin: 10px 90px 30px ; 
+
+    }
+    .btn-card{
+        width: 100%;
+        padding: 19px 50px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        background-color: #E95A08;
+        border: none;
+
+    }
+    .btn-card:hover {
+    background-color: #2a7dca;
+    }
+    /* Flower section related styles */
+    .flower-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3.95rem; 
+    }
 
 @media screen and (max-width:567px) {
     .contents{
-        padding: 0px;
+        padding: 0 10px;
        margin: 0px;
     }
 
@@ -155,4 +237,79 @@ body{
         margin: 24px 0px;
         
      }
+     /* Card Section */
+     .card-section{
+        margin: 45px 0 ;
+     }
+    .card-section-title{
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: #E95A08;
+        margin-bottom: 0px;
+    }
+    .ct{
+       font-size: 1.7rem;
+        font-weight: bold;
+        color: #000000;
+    }
+     .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap:28.5px 20px;
+    }
+    .card-description{
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        /* margin: 16px 28px 28px; */
+        width: 336px;
+        text-align: center;
+        max-width: 100%;
+
+    }
+    .centered-line{
+        display: inline;
+        text-align: inherit;
+        margin-top: 0;
+ }
+ .card-container{
+        border: 1px solid pink;
+        max-width: 171px;
+        height: auto;
+        box-shadow: 5px 5px 5px rgba(199, 165, 165, 0.877);
+
+    }
+    .card-container img{
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .card-items h3{
+        font-size: 1rem ;
+        font-weight: 400;
+        color: #111111; 
+        margin: 10px 35px 0px ;
+    }
+    .card-items p{
+      font-size: 1rem ;
+        font-weight: bold;
+        color: #111111; 
+        margin: 10px 56px 30px ; 
+
+    }
+    .btn-card{
+        width: 100%;
+        padding: 19px 30px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        background-color: #E95A08;
+        border: none;
+
+    }
+     .btn-card:hover {
+    background-color: #2a7dca;
+    }
     }
