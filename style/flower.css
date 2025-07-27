@@ -332,7 +332,10 @@ body{
         grid-row: 1/3;
     }
     /* Email Section */
-       .email-section{
+      .join-section{
+        margin:60px auto ;
+    }
+    .email-section{
         background-image: url('../assets/news-letter-bg.png');
        background-size: cover;
         background-position: center;
@@ -355,12 +358,12 @@ body{
         align-items: center;
         max-width: 100%;
         overflow: hidden;
-    }
+         }
     .email-section input[type="email"] {
   font-size: 1rem;
   font-weight: 400;
   height: auto;
-  width: 600px;
+  width: 650px;
   padding: 17px 25px;
   border: none;
     border: none;
@@ -372,9 +375,9 @@ body{
          color: white;
          background-color: #E95A08;
          height: 52px;
-         width: 150px;
+         width: 186px;
          border: none;
-        
+
     }
     .btn-sub:hover {
     background-color: #2a7dca;
@@ -527,7 +530,7 @@ body{
  }
  .card-container{
         border: 1px solid pink;
-        max-width: 171px;
+        max-width: 160px;
         height: auto;
         box-shadow: 5px 5px 5px rgba(199, 165, 165, 0.877);
 
@@ -542,18 +545,18 @@ body{
         font-size: 1rem ;
         font-weight: 400;
         color: #111111; 
-        margin: 10px 35px 0px ;
+        margin: 10px 30px 0px ;
     }
     .card-items p{
       font-size: 1rem ;
         font-weight: bold;
         color: #111111; 
-        margin: 10px 56px 30px ; 
+        margin: 10px 50px 30px ; 
 
     }
     .btn-card{
         width: 100%;
-        padding: 19px 30px;
+        padding: 19px 25px;
         font-size: 1rem;
         font-weight: 600;
         color: white;
@@ -631,19 +634,19 @@ body{
     .card_1{
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
         height: 184px;
-        width: 358px;
+        width: 320px;
         border-radius: 14px;
     }
     .card_2{
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
         height: 184px;
-        width: 358px;
+        width: 320px;
         border-radius: 14px;
     }
     .card_3{
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
-        height: 172px;
-        width: 358px;
+        height: 184px;
+        width: 320px;
          border-radius: 14px;
     }
     .card-content{
@@ -710,7 +713,7 @@ body{
         grid-row: auto;
     }
     /* Join-section */
-     .email-section{
+    .email-section{
         background-image: url('../assets/news-letter-bg.png');
        background-size: cover;
         background-position: center;
@@ -740,7 +743,7 @@ body{
   font-size: 0.875rem;
   font-weight: 400;
   height: auto;
-  width: 170px;
+  width: auto;
   padding: 15px 20px;
   border: none;
     border: none;
@@ -754,7 +757,7 @@ body{
          height: 45px;
          width: 90px;
          border: none;
-        
+
     }
     .btn-sub:hover {
     background-color: #2a7dca;
